@@ -2,8 +2,8 @@ import React from 'react';
 import propTypes from 'prop-types';
 const Section = ({ title, children }) => {
   return (
-    <section className="text-center block w-5/12 mb-4 ml-auto mr-auto mt-5">
-      <h2 className="max-w-lg text-3xl font-semibold leading-loose text-gray-900">
+    <section className="text-center ">
+      <h2 className="max-w-lg text-5xl font-semibold leading-loose text-gray-900 ml-auto mr-auto mt-0 mb-0">
         {title}
       </h2>
       {children}

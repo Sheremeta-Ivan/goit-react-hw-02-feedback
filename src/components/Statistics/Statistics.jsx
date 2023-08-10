@@ -3,7 +3,7 @@ import propTypes from 'prop-types';
 
 const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => {
   return (
-    <ul className="max-w-md space-y-1 text-gray-800 list-inside font-bold">
+    <ul className="max-w-md space-y-1 text-gray-800 list-inside font-bold text-3xl ml-auto mr-auto mt-0 mb-0">
       <li className="text-green-500">Good: {good}</li>
       <li className="">Neutral: {neutral} </li>
       <li className="text-red-500">Bad: {bad}</li>
